@@ -19,7 +19,6 @@ import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry
 import org.springframework.web.socket.WebSocketHandler;
 import org.springframework.web.socket.WebSocketSession;
 import org.springframework.web.socket.handler.BinaryWebSocketHandler;
-import java.util.*;
 
 @EnableWebSocket
 @SpringBootApplication
@@ -27,7 +26,6 @@ public class Application {
   
     private static String lab;
     private static String[] args;
-    private static Map<String,Thread> threads = new HashMap<String,Thread>();
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
@@ -70,17 +68,11 @@ public class Application {
 
       public void afterConnectionEstablished(WebSocketSession session) {
         if (lab.equals("1") || lab.equals("both")) {
-          threads.put(session.getId() + "1", new Lab1(session, System.in));
+          new Lab1(session, System.in);
         }
         if (lab.equals("2") || lab.equals("both")) {
-          threads.put(session.getId() + "2", new Lab2(session, args, "realtimelocation.csv"));
+          new Lab2(session, args, "realtimelocation.csv");
         }  
-      }
-      
-      public void afterConnectionClosed(WebSocketSession session) {
-        System.out.println("PAROUUUUUUUUUUUUUUU");
-        threads.get(session.getId() + "1").interrupt();
-        threads.get(session.getId() + "2").interrupt();
       }
     }
 }

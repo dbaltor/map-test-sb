@@ -67,6 +67,13 @@ public class Application {
     public static class MyBinaryHandler extends BinaryWebSocketHandler {
 
       public void afterConnectionEstablished(WebSocketSession session) {
+        // Send map access key
+        System.out.println("Trying to send the map access key: " + System.getenv("MAPKEY"));
+        if (!WsPacket.send(session, "m0," + System.getenv("MAPKEY"))){
+          System.out.println("Error whilst trying to send map access key. Socket " + session.getId() + " closed!");
+          return; 
+        }
+        
         if (lab.equals("1") || lab.equals("both")) {
           new Lab1(session, System.in);
         }
