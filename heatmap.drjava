@@ -3,21 +3,21 @@
   <project autorefresh="false" build="build/classes/" root="" work="">
     <createjar file=""/>
     <source>
-      <file active="true" name="src/main/java/map/Application.java" package="map" timestamp="21-Nov-2018 22:56:28">
-        <select from="2805" to="2805"/>
-        <scroll column="983" row="0"/>
-      </file>
-      <file name="src/main/java/map/Lab2.java" package="map" timestamp="15-Sep-2018 18:24:25">
-        <select from="2805" to="2805"/>
-        <scroll column="983" row="0"/>
+      <file active="true" name="src/main/java/map/Application.java" package="map" timestamp="09-Jan-2019 22:01:40">
+        <select from="346" to="346"/>
+        <scroll column="0" row="0"/>
       </file>
       <file name="src/main/java/map/Lab1.java" package="map" timestamp="15-Sep-2018 18:24:25">
-        <select from="2805" to="2805"/>
-        <scroll column="983" row="0"/>
+        <select from="346" to="346"/>
+        <scroll column="0" row="0"/>
       </file>
       <file name="src/main/java/map/WsPacket.java" package="map" timestamp="15-Sep-2018 18:24:25">
-        <select from="2805" to="2805"/>
-        <scroll column="983" row="0"/>
+        <select from="346" to="346"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/main/java/map/Lab2.java" package="map" timestamp="09-Jan-2019 22:08:51">
+        <select from="346" to="346"/>
+        <scroll column="0" row="0"/>
       </file>
     </source>
     <included/>
