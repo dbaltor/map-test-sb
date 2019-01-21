@@ -20,8 +20,7 @@ localhost:8080
 
 *Cloud URL:
 ===========
-http://map-test-sb-route-map-test-sb.a3c1.starter-us-west-1.openshiftapps.com/
-<br>https://pacific-oasis-11496.herokuapp.com/
+https://pacific-oasis-11496.herokuapp.com/
 
 
 
