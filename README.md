@@ -21,7 +21,7 @@ localhost:8080
 *Cloud URL:
 ===========
 https://pacific-oasis-11496.herokuapp.com/
-http://heatmap-test-dbaltor-map-test-sb.1d35.starter-us-east-1.openshiftapps.com
+<br>http://heatmap-test-dbaltor-map-test-sb.1d35.starter-us-east-1.openshiftapps.com
 
 
 
