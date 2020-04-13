@@ -21,8 +21,7 @@ localhost:8080
 *Cloud URL:
 ===========
 https://pacific-oasis-11496.herokuapp.com/
-<br>http://heatmap-heatmap.apps.ca-central-1.starter.openshift-online.com/
-
+<br>http://heatmap-heatmap-sb.apps.ca-central-1.starter.openshift-online.com/
 
 
 
