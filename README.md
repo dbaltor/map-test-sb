@@ -20,8 +20,8 @@ localhost:8080
 
 *Cloud URL:
 ===========
-https://pacific-oasis-11496.herokuapp.com/
-<br>http://heatmap-heatmap-sb.apps.us-east-2.starter.openshift-online.com/
+https://pacific-oasis-11496.herokuapp.com/<br>
+<s>http://heatmap-heatmap-sb.apps.us-east-2.starter.openshift-online.com/</s> //Openshift does not offer free tier anymore.
 
 
 
