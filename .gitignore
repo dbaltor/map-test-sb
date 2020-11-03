@@ -9,6 +9,7 @@ run.sh
 
 # Compiled class file
 *.class
+.gradle
 build
 bin
 
