@@ -1,13 +1,16 @@
 # run script with secret map key
 run.sh
 
-# build artifacts
-.gradle
-build
+# IDE
+.DS_Store
+.classpath
+.project
+.settings
 
 # Compiled class file
 *.class
 build
+bin
 
 # Log file
 *.log
